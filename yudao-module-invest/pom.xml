@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>yudao</artifactId>
+        <groupId>cn.iocoder.boot</groupId>
+        <version>${revision}</version> <!-- 1. 修改 version 为 ${revision} -->
+    </parent>
+    <modules>
+        <module>yudao-module-invest-biz</module>
+        <module>yudao-module-invest-api</module>
+    </modules>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>yudao-module-invest</artifactId>
+    <packaging>pom</packaging> <!-- 2. 新增 packaging 为 pom -->
+
+    <name>${project.artifactId}</name> <!-- 3. 新增 name 为 ${project.artifactId} -->
+    <description> <!-- 4. 新增 description 为该模块的描述 -->
+        invest 模块
+    </description>
+
+</project>
